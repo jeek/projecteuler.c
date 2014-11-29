@@ -1,0 +1,8 @@
+Project Euler C Solutions
+=========================
+
+Instructions
+------------
+1. autoreconf --install
+2. ./configure
+3. make check
