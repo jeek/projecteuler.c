@@ -1,4 +1,4 @@
-AC_INIT(projecteuler, version-0.2, jeek@jeek.net)
+AC_INIT(projecteuler, version-0.3, jeek@jeek.net)
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_FILES([Makefile])
 AC_PROG_CC
