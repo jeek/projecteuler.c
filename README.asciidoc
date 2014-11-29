@@ -6,3 +6,7 @@ Instructions
 1. autoreconf --install
 2. ./configure
 3. make check
+
+Clean Up Your Mess Before You Push
+----------------------------------
+1. make maintainer-clean-local
