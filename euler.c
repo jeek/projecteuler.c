@@ -18,9 +18,9 @@ int main(int argc, char* argv[]) {
     }
     if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 3)) {
         if (argc == 3) {
-            printf("003: %d\n", problem003(atoll(argv[2])));
+            printf("003: %lld\n", problem003(atoll(argv[2])));
         } else {
-            printf("003: %d\n", problem003(600851475143));
+            printf("003: %lld\n", problem003(600851475143));
         }
     }
 }
