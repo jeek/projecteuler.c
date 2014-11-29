@@ -1,2 +1,2 @@
 language: c
-before_install: autoreconf --install
+before_install: aclocal --install;autoreconf --install

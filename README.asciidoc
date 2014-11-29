@@ -3,9 +3,10 @@ Project Euler C Solutions
 
 Instructions
 ------------
-1. autoreconf --install
-2. ./configure
-3. make check
+1. aclocal --install
+2. autoreconf --install
+3. ./configure
+4. make check
 
 Clean Up Your Mess Before You Push
 ----------------------------------
