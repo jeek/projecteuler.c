@@ -8,7 +8,8 @@ ACLOCAL_AMFLAGS= -I m4
 
 TESTS_ENVIRONMENT	= top_builddir=$(top_builddir)
 
-TESTS			= t/problem001testcaseworks.test \
+TESTS			= t/euler.test \
+			  t/problem001testcaseworks.test \
 			  t/problem001correctsolution.test \
 			  t/problem00160seconds.test \
 			  t/problem002correctsolution.test \
