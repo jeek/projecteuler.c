@@ -1,4 +1,5 @@
 AC_INIT(projecteuler, version-0.1, jeek@jeek.net)
+AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_FILES([Makefile])
 AC_MSG_NOTICE([Hello, world.])
 AC_PROG_CC
