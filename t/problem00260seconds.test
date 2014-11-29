@@ -1,0 +1,10 @@
+#!/bin/bash
+
+STARTTIME=`date +%s`
+./euler 2 > /dev/null
+
+if [ $(expr $(date +%s) - 60) -gt $STARTTIME ]
+then
+	echo Problem \#2 takes too long
+	exit 1
+fi
