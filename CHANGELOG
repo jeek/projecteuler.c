@@ -1,3 +1,10 @@
+v0.3
+----
+* Problem #3 works.
+* Problem #3 test case and real solution works, runs in under 60 seconds.
+* Fixed output filename issue in Problem #1 test case.
+* factor.c provides factors(), to factor long longs.
+
 v0.2
 ----
 * Fixed || issue in euler.c (backported to v0.1 branch)
