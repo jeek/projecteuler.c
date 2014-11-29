@@ -1,0 +1,13 @@
+v0.2
+----
+* Fixed || issue in euler.c (backported to v0.1 branch)
+* Problem #2 works.
+* Problem #2 test case works, and runs in under 60 seconds.
+
+v0.1
+----
+* Problem #1 works.
+* Tests correct test case solution, correct main solution, and 60-second run
+  time for Problem #1.
+* Toolchain works.
+* Travis-CI works.
