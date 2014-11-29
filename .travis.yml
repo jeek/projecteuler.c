@@ -1,2 +1,2 @@
 language: c
-before_install: aclocal --install;autoreconf --install
+before_install: mkdir m4;aclocal --install;autoreconf --install
