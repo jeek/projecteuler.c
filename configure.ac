@@ -8,6 +8,7 @@ AC_LANG(C)
 AC_CHECK_HEADERS([stdio.h math.h gcd.h config.h])
 AC_DEFINE([NUMTYPE], [long long], "Long Longs.")
 AC_DEFINE([NUMSTR], ["%lld"], "Long Longs string.")
+AC_DEFINE([NUMCONV], [atoll], "Long Longs string.")
 LT_INIT
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_OUTPUT

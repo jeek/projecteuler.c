@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
     if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 3)) {
         if (argc == 3) {
             printf("003: ");
-            printf(NUMSTR, problem003(atoll(argv[2])));
+            printf(NUMSTR, problem003(NUMCONV(argv[2])));
             printf("\n");
         } else {
             printf("003: ");
