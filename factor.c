@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 NUMTYPE * factors(NUMTYPE number_to_factor) {
     NUMTYPE *result = malloc(sizeof(NUMTYPE));
     NUMTYPE *newresult = malloc(sizeof(NUMTYPE));
