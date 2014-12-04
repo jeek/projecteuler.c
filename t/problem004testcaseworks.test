@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./euler 4 2 > problem004test.out
+echo 004: 9009 | diff problem004test.out -

@@ -2,8 +2,7 @@
 #include "problem001.h"
 #include "problem002.h"
 #include "problem003.h"
-
-#define SOLVED [1, 2];
+#include "problem004.h"
 
 int main(int argc, char* argv[]) {
     if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 1)) {
@@ -21,6 +20,13 @@ int main(int argc, char* argv[]) {
             printf("003: %lld\n", problem003(atoll(argv[2])));
         } else {
             printf("003: %lld\n", problem003(600851475143));
+        }
+    }
+    if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 4)) {
+        if (argc == 3) {
+            printf("004: %lld\n", problem004(atoi(argv[2])));
+        } else {
+            printf("004: %lld\n", problem004(3));
         }
     }
 }
