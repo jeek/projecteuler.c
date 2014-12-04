@@ -23,4 +23,5 @@ int main(int argc, char* argv[]) {
             printf("003: %lld\n", problem003(600851475143));
         }
     }
+    return 0;
 }
