@@ -1,4 +1,4 @@
-AC_INIT(projecteuler, version-0.3, jeek@jeek.net)
+AC_INIT(projecteuler, version-0.4, jeek@jeek.net)
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_FILES([Makefile])
 AC_SEARCH_LIBS([sqrt], [m], [], [AC_MSG_ERROR([unable to link math library])])
