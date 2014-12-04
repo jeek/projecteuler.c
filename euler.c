@@ -3,6 +3,7 @@
 #include "problem002.h"
 #include "problem003.h"
 #include "problem004.h"
+#include "problem005.h"
 
 int main(int argc, char* argv[]) {
     if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 1)) {
@@ -27,6 +28,13 @@ int main(int argc, char* argv[]) {
             printf("004: %lld\n", problem004(atoi(argv[2])));
         } else {
             printf("004: %lld\n", problem004(3));
+        }
+    }
+    if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 5)) {
+        if (argc == 3) {
+            printf("005: %lld\n", problem005(atoi(argv[2])));
+        } else {
+            printf("005: %lld\n", problem005(20));
         }
     }
 }

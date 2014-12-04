@@ -1,6 +1,6 @@
 bin_PROGRAMS 		= euler
 euler_SOURCES	 	= euler.c
-euler_LDADD		= problem001.lo problem002.lo problem003.lo factor.lo problem004.lo
+euler_LDADD		= problem001.lo problem002.lo problem003.lo factor.lo problem004.lo problem005.lo gcd.lo
 EXTRA_DIST 		= $(TESTS)
 MAINTAINERCLEANFILES 	= Makefile.in
 
@@ -19,7 +19,10 @@ TESTS			= t/euler.test \
 			  t/problem00360seconds.test \
 			  t/problem004testcaseworks.test \
 			  t/problem004correctsolution.test \
-			  t/problem00460seconds.test 
+			  t/problem00460seconds.test \
+			  t/problem005testcaseworks.test \
+			  t/problem005correctsolution.test \
+			  t/problem00560seconds.test 
 
 maintainer-clean-local: clean
 	rm -rf aclocal.m4 autom4te.cache compile configure *~ depcomp install-sh Makefile.in missing *.out problem??? *.o config.log Makefile config.status test-driver t/*log t/*trs *log *trs INSTALL COPYING ar-lib config.guess config.sub ltmain.sh libtool *.lo *.la .deps .libs */*~ euler m4
