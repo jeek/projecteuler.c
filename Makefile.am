@@ -16,7 +16,10 @@ TESTS			= t/euler.test \
 			  t/problem00260seconds.test \
 			  t/problem003testcaseworks.test \
 			  t/problem003correctsolution.test \
-			  t/problem00360seconds.test 
+			  t/problem00360seconds.test \
+			  t/problem004testcaseworks.test \
+			  t/problem004correctsolution.test \
+			  t/problem00460seconds.test 
 
 maintainer-clean-local: clean
 	rm -rf aclocal.m4 autom4te.cache compile configure *~ depcomp install-sh Makefile.in missing *.out problem??? *.o config.log Makefile config.status test-driver t/*log t/*trs *log *trs INSTALL COPYING ar-lib config.guess config.sub ltmain.sh libtool *.lo *.la .deps .libs */*~ euler m4
