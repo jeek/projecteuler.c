@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int isapalindrome(NUMTYPE x) {
+boolean isapalindrome(NUMTYPE x) {
     if (x == 0) {
         return x == x;
     }
