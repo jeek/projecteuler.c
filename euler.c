@@ -15,4 +15,5 @@ int main(int argc, char* argv[]) {
     if (argc == 1 || (argc >= 2 & atoi(argv[1]) == 2)) {
         printf("002: %d\n", problem002(4000000));
     }
+    return 0;
 }
