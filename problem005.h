@@ -1,1 +1,1 @@
-long long problem005(long long UPPERLIMIT);
+NUMTYPE problem005(NUMTYPE UPPERLIMIT);

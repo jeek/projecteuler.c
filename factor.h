@@ -1,1 +1,1 @@
-long long * factors(long long number_to_factor);
+NUMTYPE * factors(NUMTYPE number_to_factor);

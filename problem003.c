@@ -1,9 +1,9 @@
 #include "problem003.h"
 #include "factor.h"
 
-long long problem003(long long UPPERLIMIT) {
+NUMTYPE problem003(NUMTYPE UPPERLIMIT) {
     int i;
-    long long *result = factors(UPPERLIMIT);
+    NUMTYPE *result = factors(UPPERLIMIT);
     i = sizeof *result;
     return result[i-1];
 }

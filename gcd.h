@@ -1,2 +1,2 @@
-long long gcd(long long a, long long b);
-long long lcm(long long a, long long b);
+NUMTYPE gcd(NUMTYPE a, NUMTYPE b);
+NUMTYPE lcm(NUMTYPE a, NUMTYPE b);

@@ -1,6 +1,6 @@
-long long * factors(long long number_to_factor) {
-    long long *result = malloc(sizeof(long long));
-    long long *newresult = malloc(sizeof(long long));
+NUMTYPE * factors(NUMTYPE number_to_factor) {
+    NUMTYPE *result = malloc(sizeof(NUMTYPE));
+    NUMTYPE *newresult = malloc(sizeof(NUMTYPE));
     int i = 2;
     int result_length = 0;
     int j = 0;
@@ -8,11 +8,11 @@ long long * factors(long long number_to_factor) {
         while (number_to_factor % i == 0) {
             number_to_factor /= i;
             result_length++;
-            *newresult = malloc(sizeof(long long) * (result_length));
-            memcpy(newresult, result, sizeof(long long) * (result_length - 1));
+            *newresult = malloc(sizeof(NUMTYPE) * (result_length));
+            memcpy(newresult, result, sizeof(NUMTYPE) * (result_length - 1));
             newresult[result_length - 1] = i;
-            *result = malloc(sizeof(long long) * (result_length));
-            memcpy(result, newresult, sizeof(long long) * (result_length));
+            *result = malloc(sizeof(NUMTYPE) * (result_length));
+            memcpy(result, newresult, sizeof(NUMTYPE) * (result_length));
         }
         i++;
     }
