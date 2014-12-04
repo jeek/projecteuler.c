@@ -1,6 +1,7 @@
 v0.5.1
 ------
 * Moved number types into defines
+* Fixed factor.[ch] malloc warning
 
 v0.5
 ----
