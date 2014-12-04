@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+typedef enum { false, true } boolean;
+
 boolean isapalindrome(NUMTYPE x) {
     if (x == 0) {
         return x == x;
