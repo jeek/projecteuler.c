@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
             printf("\n");
         } else {
             printf("003: ");
-            printf(NUMSTR, problem003(600851475143));
+            printf(NUMSTR, problem003((NUMTYPE)600851475143));
             printf("\n");
         }
     }
