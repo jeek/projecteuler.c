@@ -1,1 +1,4 @@
-extern long long * factors(long long number_to_factor);
+#include <string.h>
+#include <stddef.h>
+
+extern NUMTYPE * factors(NUMTYPE number_to_factor);
