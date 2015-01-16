@@ -3,7 +3,6 @@ long long * factors(long long number_to_factor) {
     long long *newresult = malloc(sizeof(long long));
     int i = 2;
     int result_length = 0;
-    int j = 0;
     while (number_to_factor > 1) {
         while (number_to_factor % i == 0) {
             number_to_factor /= i;
