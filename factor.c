@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stddef.h>
+#include <stdlib.h>
 #include "factor.h"
 
 NUMTYPE * factors(NUMTYPE number_to_factor) {
