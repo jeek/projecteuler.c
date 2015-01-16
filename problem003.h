@@ -1,3 +1,3 @@
 #include "factor.h"
 
-long long problem003(long long UPPERLIMIT);
+NUMTYPE problem003(NUMTYPE UPPERLIMIT);

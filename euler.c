@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
         if (argc == 3) {
             printf("003: %lld\n", problem003(atoll(argv[2])));
         } else {
-            printf("003: %lld\n", problem003(600851475143));
+            printf("003: %lld\n", problem003((NUMTYPE)600851475143));
         }
     }
     return 0;
