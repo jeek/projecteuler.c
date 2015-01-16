@@ -5,7 +5,6 @@ NUMTYPE * factors(NUMTYPE number_to_factor) {
     NUMTYPE *newresult = malloc(sizeof(NUMTYPE));
     int i = 2;
     int result_length = 0;
-    int j = 0;
     while (number_to_factor > 1) {
         while (number_to_factor % i == 0) {
             number_to_factor /= i;
