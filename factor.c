@@ -17,5 +17,8 @@ NUMTYPE * factors(NUMTYPE number_to_factor) {
         }
         i++;
     }
+    result_length++;
+    result = realloc(result, sizeof(NUMTYPE) * (result_length));
+    result[result_length - 1] = -1;
     return result;
 }

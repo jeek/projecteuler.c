@@ -6,6 +6,9 @@ NUMTYPE problem003(NUMTYPE UPPERLIMIT) {
     size_t i;
     static NUMTYPE *result;
     result = factors(UPPERLIMIT);
-    i = sizeof(result) / 2;
+    i = 0;
+    while (result[i] != -1) {
+        i++;
+    }
     return result[i - 1];
 }
